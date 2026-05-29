@@ -156,7 +156,8 @@ This platform consolidates them into a single solution.
 * Ticket Tracking
 * Project Updates
 
-![Employee Dashboard](<img width="751" height="425" alt="image" src="https://github.com/user-attachments/assets/1a9203a8-ae7d-4381-8891-714e646a6b51" />
+![Employee Dashboard]
+(<img width="751" height="425" alt="image" src="https://github.com/user-attachments/assets/1a9203a8-ae7d-4381-8891-714e646a6b51" />
 )
 
 ---
