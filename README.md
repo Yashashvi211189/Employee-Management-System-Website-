@@ -157,8 +157,8 @@ This platform consolidates them into a single solution.
 * Project Updates
 
 ![Employee Dashboard]
-(<img width="751" height="425" alt="image" src="https://github.com/user-attachments/assets/1a9203a8-ae7d-4381-8891-714e646a6b51" />
-)
+<img width="751" height="425" alt="image" src="https://github.com/user-attachments/assets/1a9203a8-ae7d-4381-8891-714e646a6b51" />
+
 
 ---
 
@@ -170,8 +170,9 @@ This platform consolidates them into a single solution.
 * Ticket Administration
 * Website Content Management
 
-![Admin Dashboard](<img width="600" height="472" alt="image" src="https://github.com/user-attachments/assets/b7db252f-2e9c-4450-9026-56519c9b1db6" />
-)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42d70d0e-59d0-471f-b39b-fafa4a382bc6" />
+![Admin Dashboard]
+<img width="600" height="472" alt="image" src="https://github.com/user-attachments/assets/b7db252f-2e9c-4450-9026-56519c9b1db6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42d70d0e-59d0-471f-b39b-fafa4a382bc6" />
 
 
 # 🏗️ Architecture
