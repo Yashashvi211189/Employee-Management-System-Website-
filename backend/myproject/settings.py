@@ -192,6 +192,7 @@ AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN", "")
 #to be used if you load files locally
 if not ALWAYS_UPLOAD_FILES_TO_AWS:
    STATIC_URL = '/static/'
+   STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
