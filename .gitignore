@@ -1,0 +1,70 @@
+# Old locked folder names kept locally after the rename
+Diracai_Backend_Employee_Management_mine/
+Diracai_Frontend_Employee_Management_mine/
+
+# Workspace/local history
+.history/
+**/.history/
+.vscode/*
+!.vscode/settings.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+venv*/
+myenv/
+backend/.venv/
+backend/.venv310/
+backend/myenv/
+
+# Node / frontend
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+.next-dev/
+**/.next-dev/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Django/runtime output
+db.sqlite3
+*.sqlite3
+media/
+media_cdn/
+staticfiles/
+static_cdn/
+backend/static_cdn/
+
+# Logs and caches
+*.log
+.cache/
+**/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Deployment/tool local state
+.vercel/
+.netlify/
+deploy_bundle/
+
+# Archives and OS files
+*.tar.gz
+*.zip
+*.pack
+.DS_Store
+Thumbs.db

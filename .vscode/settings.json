@@ -1,0 +1,17 @@
+{
+  "git.autoRepositoryDetection": "subFolders",
+  "git.openRepositoryInParentFolders": "never",
+  "git.scanRepositories": [
+    "backend",
+    "frontend"
+  ],
+  "git.ignoredRepositories": [
+    "C:\\Users\\yasha",
+    "C:\\Users\\yasha\\management\\AI_PROJECT\\Diracai_Backend_Employee_Management_mine",
+    "C:\\Users\\yasha\\management\\AI_PROJECT\\Diracai_Frontend_Employee_Management_mine"
+  ],
+  "files.exclude": {
+    "Diracai_Backend_Employee_Management_mine": true,
+    "Diracai_Frontend_Employee_Management_mine": true
+  }
+}

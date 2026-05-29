@@ -1,0 +1,28 @@
+# Systemd service file for Nilaya Django Backend
+# Place this file in: /etc/systemd/system/nilaya_backend.service
+
+[Unit]
+Description=Nilaya Django Backend (Gunicorn)
+After=network.target postgresql.service redis.service
+
+[Service]
+Type=notify
+User=sammy
+Group=sammy
+RuntimeDirectory=gunicorn
+WorkingDirectory=/home/sammy/myprojectdir/Nilaya_Backend
+Environment="DJANGO_SETTINGS_MODULE=myproject.settings_production"
+ExecStart=/home/sammy/myprojectdir/Nilaya_Backend/myenv/bin/gunicorn \
+          --config /home/sammy/myprojectdir/Nilaya_Backend/gunicorn_config.py \
+          myproject.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+
+
